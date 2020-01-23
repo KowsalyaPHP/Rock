@@ -1,1 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+    font-family: Calibri;
+    font-size: 14px;
+    color: #251c40;
+}
+body{
+    margin:10px 20px; 
+    font-family: Avenir;
+}
+#grid{
+    grid-template-columns: repeat(2,1fr) !important;
+    grid-template-rows: 230px !important;
+}
+.image-cropper {
+    margin: 0px 98px;
+}
+#slider-buttons-left{
+    top: 85px !important;
+}
+#slider-buttons-right{
+    top: 85px !important;
+}
+#container {
+    overflow-x: inherit !important;
+}

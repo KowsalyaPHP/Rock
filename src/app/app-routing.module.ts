@@ -1,8 +1,13 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { RocklandingComponent } from './rocklanding/rocklanding.component';
 
-
-const routes: Routes = [];
+const routes: Routes = [
+  {
+    path: "rocklanding",
+    component: RocklandingComponent
+  }
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

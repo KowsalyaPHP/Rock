@@ -1,0 +1,346 @@
+
+.Bitmap {
+    width: 108px;
+    height: 60px;
+    object-fit: contain;
+    float: left;
+}
+.menu{
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.82px;
+    text-align: center;
+    color: #4a4a4a;
+}
+#list {
+	min-width: 696px;
+	list-style: none;
+	padding-top: 20px;
+}
+#list li {
+    display: inline;
+    margin-left: 78px;
+}
+.Rectangle {
+    padding: 10px 24px;
+    border-radius: 4px;
+    border: solid 1px #4a4a4a;
+}
+.main_image {
+    margin-top: 20px;
+    float:left;
+    position: relative;
+    text-align: justify;
+    font-size: 40px;
+    font-weight: 300;    
+}
+.play_hiring {
+    position: absolute;
+    top: 120px;
+    left: 50px;
+    font-size: 38px;
+    width: 448px;
+    color: #251c40;
+    line-height: 1.35;
+    letter-spacing: -0.74px;    
+}
+.play_hiring_weight{
+    font-weight: 900;
+    font-size: 38px;
+    color: #251c40;
+}
+.play_hiring_content {
+    position: absolute;
+    top: 230px;
+    left: 50px;
+    width: 448px;
+    line-height: 1.57;
+    letter-spacing: -0.39px;
+    color: #251c40;
+}
+.Oval {
+    position: absolute;
+    top: 288px;
+    left: 52px;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+    border: solid 1px #f8e71c;
+}
+.Oval_copy {
+    position: absolute;
+    top: 288px;
+    left: 70px;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background-color:#f8e71c ;
+}
+.right_talent{
+    position: absolute;
+    top: 380px;
+    left: 50px;
+    font-size: 20px;
+    font-weight: 900;
+    letter-spacing: -0.37px;
+    color: #251c40;
+}
+.Bg-Input {
+    position: absolute;
+    top: 410px;
+    left: 50px;
+    width: 318px;
+    height: 50px;
+    border-radius: 5px;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.3);
+}
+.Rectangle_background {
+    position: absolute;
+    top: 411px;
+    left: 652px;
+    padding: 20px 36px;
+    border-radius: 5px;
+    background-color: #f8e71c;
+}
+.white_Rectangle{
+    width: 1207px;
+    height: 145px;
+    position: absolute;
+    top: 500px;
+    left: 51px;
+    box-shadow: 0 40px 80px 0 rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+#clientlist {
+	min-width: 696px;
+    list-style: none;
+    margin-top: 30px;
+}
+#clientlist li {
+    display: inline;
+    margin-right: 52px;
+}
+.about_content{
+    width:300px;
+    margin: 80px 0 0 51px;
+    float:left;
+}
+.about_us{
+    width:100%;
+    height:auto;
+    float:left;
+    margin-top:100px;
+}
+.aboutAs{
+    font-size: 20px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.37px;
+    color: #251c40;
+}
+.why_rock{
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.81px;
+    color: #251c40;
+    font-size: 39px;
+}
+.rock_detail{
+    line-height: 2;
+    letter-spacing: -0.39px;
+    color: #98a6b8;
+    font-size: 14px;
+}
+.Rectangle_background_outer{
+    padding: 15px 36px;
+    border-radius: 3px;
+    background-color: #f8e71c;
+    margin-top: 18px;
+    position: absolute;
+}
+#rate{
+    width:100%;
+    height:auto;
+}
+.dropping {
+    position: absolute;
+    top: 1400px;
+    left: 50px;
+    font-size: 38px;
+    color: #251c40;
+    line-height: 1.35;
+    letter-spacing: -0.74px;    
+}
+.dropping_content{
+    position: absolute;
+    top: 1480px;
+    left: 50px;
+    line-height: 2;
+    letter-spacing: -0.39px;
+    color: #251c40;
+    width: 670px;
+    font-size:15px;
+}
+.dropping_percentage{
+    position: absolute;
+    top: 1555px;
+    left: 63px;
+    font-size: 40px;
+    text-decoration: line-through;
+    color: #251c40;
+}
+.dropping_rock{
+    position: absolute;
+    top: 1572px;
+    left: 313px;
+    font-size: 15px;
+    font-weight: 900;
+    color: #251c40;
+}
+.dropping_offer{
+    position: absolute;
+    top: 1600px;
+    left: 252px;
+    font-size: 63px;
+    font-weight: 600;
+    color: #251c40;
+}
+.Rectangle_backgroundwhite {
+    position: absolute;
+    top: 1682px;
+    left: 52px;
+    padding: 15px 36px;
+    border-radius: 4px;
+    background-color: #ffffff;
+}
+#how_it_works{
+    width:100%;
+    height:auto;
+    margin-top:60px;
+}
+.how_content{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+.how_content1{
+    text-align: center;
+}
+.how_details{
+    width:100%;    
+    margin-top: 70px;
+}
+.circle{    
+    position: absolute;
+    top: 2147px;
+    left: 75px;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    background-color: #f8e71c;
+}
+.border_line{
+    position: relative;
+    border: 1px solid #f8e71c;
+    z-index: 9999;
+    margin-top: -73px;
+    margin-left: 109px;
+    width: 180px;
+}
+.circle_border{    
+    position: absolute;
+    top: 2163px;
+    left: 310px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #f8e71c;
+}
+.border_linecopy{   
+    border: 1px solid #f8e71c;
+    margin-top: -2px;
+    margin-left: 342px;
+    width: 180px;
+}
+#slider{
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+}
+.Oval_big {
+    width: 257px;
+    height: 257px;
+    opacity: 0.5;
+    border: solid 0.9px #979797;
+    border-radius: 50%;
+  }
+  .Oval_small{
+    width: 208px;
+    height: 208px;
+    border: solid 0.9px #979797;
+    border-radius: 50%;
+  }
+  #diagram{
+    width: 50%;
+    height: auto;
+    float:left
+  }
+  #content{
+    width: 50%;
+    height: auto;
+    float:right;
+    margin-top: 50px;
+    text-align: justify;
+  }
+  .testimonial{
+    font-size: 20px;
+    font-weight: 900;
+    letter-spacing: -0.37px;
+    color: #4a4a4a;
+  }
+  sup {
+    font-size: 39px;
+  }
+  .We-have-worked-toget {
+    font-size: 20px;
+    line-height: 1.6;
+    letter-spacing: -0.56px;
+    color: #4a4a4a;
+    max-width: 600px;        
+  }
+  .what_rock_client{
+    font-weight: 500;
+    letter-spacing: -0.81px;
+    color: #251c40;
+    font-size: 48px;
+    width: 549px;
+    margin-top: -10px;
+  }
+
+  .free_offers{
+    position: absolute;
+    top: 3430px;
+    left: 50px;
+    font-weight: 500;
+    letter-spacing: -0.81px;
+    color: #251c40;
+    font-size: 42px;
+  }
+  .free_offers_content{
+    position: absolute;
+    top: 3530px;
+    left: 50px;
+    font-weight: 500;
+    color: #251c40;
+    width: 640px;    
+    line-height: 2;
+  }
