@@ -4,7 +4,7 @@ import { RocklandingComponent } from './rocklanding/rocklanding.component';
 
 const routes: Routes = [
   {
-    path: "rocklanding",
+    path: "",
     component: RocklandingComponent
   }
 ];

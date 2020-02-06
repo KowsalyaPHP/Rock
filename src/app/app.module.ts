@@ -5,6 +5,8 @@ import { AppComponent } from './app.component';
 import { RocklandingComponent } from './rocklanding/rocklanding.component';
 import { SliderModule } from 'angular-image-slider';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { OwlModule } from 'ngx-owl-carousel';
+import { SlideshowModule} from 'ng-simple-slideshow';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     BrowserModule,
     AppRoutingModule,
     SliderModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    OwlModule,
+    SlideshowModule
   ],
   providers: [],
   bootstrap: [AppComponent]

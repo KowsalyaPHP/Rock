@@ -1,4 +1,6 @@
-
+a{
+    text-decoration: none;
+}
 .Bitmap {
     width: 108px;
     height: 60px;
@@ -110,7 +112,7 @@
     width: 1207px;
     height: 145px;
     position: absolute;
-    top: 500px;
+    top: 515px;
     left: 51px;
     box-shadow: 0 40px 80px 0 rgba(0, 0, 0, 0.1);
     background-color: #ffffff;
@@ -172,7 +174,7 @@
 }
 .dropping {
     position: absolute;
-    top: 1400px;
+    top: 1346px;
     left: 50px;
     font-size: 38px;
     color: #251c40;
@@ -181,7 +183,7 @@
 }
 .dropping_content{
     position: absolute;
-    top: 1480px;
+    top: 1432px;
     left: 50px;
     line-height: 2;
     letter-spacing: -0.39px;
@@ -191,7 +193,7 @@
 }
 .dropping_percentage{
     position: absolute;
-    top: 1555px;
+    top: 1526px;
     left: 63px;
     font-size: 40px;
     text-decoration: line-through;
@@ -199,7 +201,7 @@
 }
 .dropping_rock{
     position: absolute;
-    top: 1572px;
+    top: 1535px;
     left: 313px;
     font-size: 15px;
     font-weight: 900;
@@ -207,7 +209,7 @@
 }
 .dropping_offer{
     position: absolute;
-    top: 1600px;
+    top: 1560px;
     left: 252px;
     font-size: 63px;
     font-weight: 600;
@@ -215,7 +217,7 @@
 }
 .Rectangle_backgroundwhite {
     position: absolute;
-    top: 1682px;
+    top: 1642px;
     left: 52px;
     padding: 15px 36px;
     border-radius: 4px;
@@ -237,7 +239,7 @@
 }
 .how_details{
     width:100%;    
-    margin-top: 70px;
+    margin-top: 200px;
 }
 .circle{    
     position: absolute;
@@ -255,6 +257,8 @@
     margin-top: -73px;
     margin-left: 109px;
     width: 180px;
+    position: relative;
+    z-index: 9999;
 }
 .circle_border{    
     position: absolute;
@@ -268,8 +272,9 @@
 .border_linecopy{   
     border: 1px solid #f8e71c;
     margin-top: -2px;
-    margin-left: 342px;
+    margin-left: 281px;
     width: 180px;
+    position: relative;z-index: 9999;
 }
 #slider{
     width: 100%;
@@ -328,7 +333,7 @@
 
   .free_offers{
     position: absolute;
-    top: 3430px;
+    top: 3310px;
     left: 50px;
     font-weight: 500;
     letter-spacing: -0.81px;
@@ -337,10 +342,49 @@
   }
   .free_offers_content{
     position: absolute;
-    top: 3530px;
+    top: 3421px;
     left: 50px;
     font-weight: 500;
     color: #251c40;
     width: 640px;    
     line-height: 2;
+  }
+  #user:hover {
+    display:none;
+  }
+  .owl-carousel .owl-stage{
+      margin-top:12px !important;
+  }
+  * {box-sizing: border-box}
+  .mySlides {
+      display:none;
+      height:550px
+  }
+
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a grey background color */
+  .prev:hover, .next:hover {
+    background-color: #f1f1f1;
+    color: black;
   }
