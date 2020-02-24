@@ -22,12 +22,11 @@ export class RocklandingComponent implements OnInit {
   
   ngOnInit() {
     //this.imagesUrl = ['assets/image/group-10.png', 'assets/image/placement.png'];
-    this.imagesUrl = ['assets/image/1111.jpg', 'assets/image/2222.jpg', 'assets/image/3333.jpg'];
-    this.rockingOffer = ['assets/image/placement.png', 'assets/image/group-10.png'];
+    this.imagesUrl = ['assets/image/111.jpg', 'assets/image/222.jpg', 'assets/image/333.jpg'];
+    this.rockingOffer = ['assets/image/off1.jpg', 'assets/image/off2.jpg', 'assets/image/off3.jpg', 'assets/image/off4.jpg'];
     this.logoSliderOptions = { items: 7, dots: false, navigation: false, autoplay: true, autoplayTimeout: 500, loop: true }
     this.carousalUrl = [
-      'assets/image/bitmap1.png', 'assets/image/bitmap-copy.png', 'assets/image/bitmap-copy-2.png',
-      'assets/image/bitmap-copy-3.png','assets/image/bitmap-copy-4.png','assets/image/bitmap-copy-5.png','assets/image/bitmap-copy-7.png'
+      'assets/image/Candidknots.jpg','assets/image/databridge.gif','assets/image/divami.png','assets/image/Earlysalary.png','assets/image/okcredit_logo-1.png','assets/image/Advarisk.png'
   ];
     var $contents = $('.tab-content');
     $contents.slice(1).hide();

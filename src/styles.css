@@ -10,16 +10,15 @@ body{
 }
 #grid{
     grid-template-columns: repeat(2,1fr) !important;
-    grid-template-rows: 230px !important;
 }
 .image-cropper {
     margin: 0px 98px;
 }
 #slider-buttons-left{
-    top: 85px !important;
+    top: 120px !important;
 }
 #slider-buttons-right{
-    top: 85px !important;
+    top: 120px !important;
 }
 #container {
     overflow-x: inherit !important;
